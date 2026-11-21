@@ -1,10 +1,5 @@
 import { NavLink } from 'react-router-dom'
-
-const users = [
-  { id: 1, name: 'Ana Souza' },
-  { id: 2, name: 'Bruno Lima' },
-  { id: 3, name: 'Carla Mendes' },
-]
+import users from '../data/users'
 
 function Sidebar() {
   return (
